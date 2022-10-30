@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 102px 160px;
+    color: black;
+    align-items: center;
+    /* background-color: rgb(204, 0, 255); */
+}
+
+.nav-logo {
+    Width: 67.46px;
+    Height: 23px;
+    font-family: 'DM Sans', sans-serif;
+    top: 10px;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    /* color: black; */
+    gap: 13px;
+}
+
+.nav-items li a {
+    text-decoration: solid;
+    color: black;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    align-items: center;
+}
+
+.nav-items li:hover {
+    text-decoration: underline;
+    /* color: rgb(230, 230, 25); */
+
+}
+
+section {
+    position: absolute;
+    width: 1120px;
+    height: 1242px;
+    left: 160px;
+    top: 360px;
+    /* border: 2px solid black; */
+}
+
+section .about {
+    /* position: absolute; */
+    width: 1120px;
+    height: 590px;
+    left: 160px;
+    top: 360px;
+    /* border: 2px solid black; */
+
+}
+
+section .about .heading {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: -0.03em;
+}
+
+section .about .text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    line-height: 117%
+}
+
+section .about .profilepic {
+    width: 421px;
+    height: 590px;
+    /* left: calc(50% - 421px/2 + 349.5px); */
+    left: 580px;
+    top: 40px;
+    position: absolute;
+
+}
+
+.info {
+    position: absolute;
+    width: 623px;
+    height: 216px;
+    left: 0px;
+    top: 800px;
+}
+
+.info .textinfo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+}
+
+span {
+    text-decoration: underline;
+}
+
+hr {
+    width: 80%;
+    /* border:0; */
+    height: 1.5px;
+    border-top: 1, 5px solid #181717;
+    margin-top: 60px;
+    height: 2px;
+    width: 1000px;
+    left: px;
+    top: 1050px;
+    right: 125px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.contact {
+    position: absolute;
+    width: 1000px;
+    height: 166px;
+    left: 0px;
+    top: 1186px;
+    /* border: 2px solid black; */
+}
+
+.contact .text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+
+}
+
+.contact .icon {
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: calc(50% - 21px/2 - 290.5px);
+    left: 280px;
+    top: 38px;
+}
+
+.contact .mail {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 117%;
+    letter-spacing: -0.03em;
+    height: 37px;
+    width: 372px;
+    left: 529px;
+    top: 38px;
+    border-radius: nullpx;
+    position: absolute;
+    cursor: pointer;
+}
+
+.contact h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    /* identical to box height, or 22px */
+
+    letter-spacing: -0.03em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1650px 160px;
+    color: black;
+
+    align-items: center;
+    /* background-color: rgb(204, 0, 255); */
+}
+
+.footername {
+    height: 20px;
+    width: 270.82373046875px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-family: 'DM Sans', sans-serif;
+    top: 10px;
+    color: #2429AF;
+
+}
+
+.footeritems ul {
+    display: flex;
+    list-style: none;
+    /* color: black; */
+    gap: 18px;
+}
+
+.footeritems li a {
+    text-decoration: solid;
+    color: black;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+}
